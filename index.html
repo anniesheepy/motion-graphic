@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>City meander</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet"> 
+    		<!-- Include jQuery -->
+    <script src="vendor/jquery-2.1.1.min.js"></script>
+    <!-- Include lazylinepainter -->
+    <script src="js/jquery.lazylinepainter-1.7.0.js">
+    </script>
+    <!-- Include lazylinepainter svgData object -->
+    <script src="js/svgdata.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <h1>Let's go to ...</h1> 
+    <button id="buttonN">New York</button>
+    <br/>
+    <button id="buttonT">Taipei</button>
+    <br/>
+    <button id="buttonP">Paris</button>
+    <div id="windowbox">
+<!--        <div class="content">-->
+        <div id="cityview"></div> 
+        <img id="plane" src="img/aircraft-158148_640.png" alt="aircraft">
+        <img id="plane2" src="img/aircraft-158148_640.png" alt="aircraft">
+        <div id="logo"></div>
+        <div id="logo2"></div>
+        <div id="logoP"></div>
+
+	   <div class="logo-wrap">
+           <img id="bknyc" src="img/nyc.png" alt="statue of liberty">
+            <img id="taipei101" src="img/101.png" alt="taipei">
+            <img id="eiffel" src="img/eiffel.png" alt="eiffel towel">
+        </div>
+        <img id="window" src="img/open-window-clean.png" alt="window">
+    </div>
+
+        <img id="desk" src="img/desk.png" alt="desk">
+<!--    </div>-->
+        
+   <div id="flashContent">
+			<object type="application/x-shockwave-flash" data="catwalk.swf" width="550" height="400" id="catwalk">
+				<param name="movie" value="catwalk.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="transparent" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="catwalk.swf" width="550" height="400">
+					<param name="movie" value="catwalk.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="transparent" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+    <img id="laptop" src="img/laptop-629233_640.png" alt="laptop">
+    <img id="floor" src="img/floor.png" alt="floor">
+</body>
+</html>

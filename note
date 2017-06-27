@@ -1,0 +1,27 @@
+bounce for button
+https://daneden.github.io/animate.css/
+
+reverse animation
+https://stackoverflow.com/questions/33347992/reuse-css-animation-in-reversed-direction-by-resetting-the-state
+
+animateMe plane across screen
+https://www.sitepoint.com/community/t/jquery-animate-plane-across-screen-out-left-side-back-in-on-right-side/25726
+
+https://github.com/AfzalH/AnimateMe
+
+
+
+Documentation pointing to where motion graphics instances can be found
+
+1. The cat walking back and forth on the desk (using adobe animate to generate the code)
+
+2. Hand coded planes flying across the sky
+    I took reference from the link below and hand code to customize it
+    
+    https://www.sitepoint.com/community/t/jquery-animate-plane-across-screen-out-left-side-back-in-on-right-side/25726
+    
+3. Click on button to see the line drawing animaiton of the landmark of each city
+    (plugin : http://lazylinepainter.info/)
+
+
+

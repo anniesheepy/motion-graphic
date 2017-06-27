@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Frijole');
+/*
+*{
+    border: 1px solid red;
+}
+*/
+body{
+/*    margin:0; 
+    padding:0;*/ 
+    background: url(../img/wooden-wall-small.jpg) repeat;
+    width: 100%;
+    height: 1000px;
+    font-family: 'Frijole', cursive;
+}
+#window{
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    box-shadow:  10px 10px 10px grey;
+}
+#windowbox{
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    bottom: 310px;
+    overflow: hidden;
+}
+#cityview{
+    background-image: url(../img/blue-sky-1330598792xLu.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 95%;
+    position: absolute;;
+    bottom: 20px;
+}
+#plane{
+    width: 15%;
+    z-index: 1;
+    position: absolute;
+    left: 820px;
+    bottom: 450px;
+}
+#plane2{
+    width: 10%;
+    transform: scaleX(-1);
+    z-index: 1;
+    position: absolute;
+    left: 280px;
+    bottom: 400px;
+}
+/*
+.animation2{
+    animation: flying 5s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;  
+}
+.animation{
+    animation: flying 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;  
+}
+@keyframes flying{
+    0% {left:750px; bottom: 450px;}
+    25% {left:625px; bottom: 450px;}
+    50% {left:500px; bottom: 450px;}
+    75% {left:375px; bottom: 450px;}
+    100% {left:280px; bottom: 450px;}
+} 
+*/
+/*
+.animation{
+    animation-name: flying;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;  
+}
+@keyframes flying2{
+    0% {left:280px; bottom: 450px;}
+    25% {left:375px; bottom: 450px;}
+    50% {left:500px; bottom: 450px;}
+    75% {left:625px; bottom: 450px;}
+    100% {left:750px; bottom: 450px;}
+} 
+.animation2{
+    animation-name: flying2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;  
+}
+*/
+/*
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 35%;
+	-ms-transform: translate(-50%,-50%);
+   	-webkit-transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+*/
+
+.logo-wrap {
+    width: 100%;
+}
+#logo{
+    width: 35%;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    z-index: 10;
+}
+#logo2{
+    width: 50%;
+    position: absolute;
+    left: 250px;
+    top: 70px;
+    z-index: 10;
+}
+#logoP{
+    width: 30%;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    z-index: 10;
+}
+#bknyc{
+    z-index: 100;
+    width: 35%;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    display: none;
+}
+#taipei101{
+    z-index: 100;
+    width: 25%;
+    position: absolute;
+    left: 250px;
+    top: 70px;
+    display: none;
+}
+#eiffel{
+    z-index: 100;
+    width: 30%;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    display: none;
+}
+h1{
+    color: #b5287b;
+    text-transform: uppercase;
+	font-family: 'Frijole', cursive;
+	font-size: 160%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 5px blanchedalmond;
+    position: relative;
+}
+button{
+	font-family: 'Frijole', cursive;
+    background-color: #b5287b;
+	padding: 5px 8px;
+	margin: 20px 50px;
+	border-radius: 5px;
+/*	display: inline-block;*/
+	text-transform: uppercase;
+	font-size: 120%;
+	letter-spacing: 2px;
+	color: #f7f2ec;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #f7f2ec;
+	color: #cc2e8b;
+}
+
+button.inactive {
+	background-color: #b5287b;
+	color: #cc2e8b;
+	cursor: default;
+}
+#desk{
+    width: 80%;
+    position: absolute;
+    top: 550px;
+    left:300px;
+    z-index: 2000;
+}
+#laptop{
+    width: 20%;
+    position: absolute;
+    left: 500px;
+    top: 465px;
+    z-index: 3000;
+}
+
+#flashContent{
+    z-index: 2500;
+    position: absolute;
+    top: 220px;
+    left: 700px;
+}
+#floor{
+    width: 100%;
+    position: absolute;
+    top: 750px;   
+}
