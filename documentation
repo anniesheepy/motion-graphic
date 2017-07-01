@@ -1,0 +1,19 @@
+Documentation pointing to where motion graphics instances can be found
+
+1. The cat walking back and forth on the desk index.html:40~74 (using Adobe animate to generate the code)
+
+2. Hand coded planes flying across the sky in custom.js:1~16
+    I took reference from the link below and hand code to customize it.
+    
+    https://www.sitepoint.com/community/t/jquery-animate-plane-across-screen-out-left-side-back-in-on-right-side/25726
+    
+    (I was trying to fly the plane in css animation in style.css:46~84 but it didn't look as good as it does now)
+    
+3. Click on button to see the line drawing animation of the landmark of each city in custom.js:34~135
+    (plugin : http://lazylinepainter.info/)
+    
+4. Call to act animation on the laptop screen in custom.js:18~33
+    (plugin : http://albburtsev.github.io/jquery.typist/)
+
+p.s. Optimised view for 1280×800(13" screen), 1366x768(15"screen), 1440x900(19" screen)
+

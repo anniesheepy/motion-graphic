@@ -15,55 +15,22 @@
         animateTwoWay($('#plane2'),{left: -100}, {left: 850}, 8000, 9000);
       });
         
-        
-        
-        
-//        function rtl(){
-//            $("#plane").addClass('animation');
-//            setTimeout(function(){
-//                $('#plane').hide()}, 5000);           
-//        }
-//        function ltr(){
-//            $('#plane2').addClass('animation2');
-//            setTimeout(function(){
-//               $("#plane").hide()}, 9000);  
-//        } 
-        
-        
-        
-        
-        
-//        function hidePlane2(){
-//            $("#plane2").hide();
-//        }
-//        function hidePlane(){
-//            $("#plane").hide();
-//        } 
-//        function showPlane(){
-//            $("#plane").show();
-//        }
-//        
-//        $(document).ready(function(){
-//            if($("#plane") !== null){
-//                $.when(hidePlane2(), rtl()).then(hidePlane);
-//                console.log("rtl");
-//            }else{
-//                $.when(ltr(), hidePlane2()).then(showPlane);
-//                console.log("ltr");
-//           }
-//        });
-//        $(document).ready(function(){
-//            $.when(ltr()).then(rtl);
-//        });
-//        $(document).ready(function(){
-//            $.when(rtl()).then(ltr);
-//        });
-        
-//        $(document).ready(function(){
-//            $("#plane").addClass("animation");
-//            $("#plane2").addClass("animation2")
-//        });
-        
+    $(function($) {
+    $('.typist').typist({
+		speed: 12,
+		text: 'Order your \n "CITY MEANDER" \n dvd today!'
+	});
+});
+
+    $("#order").click(function(){
+        $(function($) {
+            	$('.typist').typistRemove(43);
+	$('.typist').typist({
+		speed: 12,
+		text: 'Order your \n "CITY MEANDER" \n dvd today!'
+        });
+    });
+});
         function a(){
                     var $logo = $('#logo');
                     $logo.lazylinepainter( 

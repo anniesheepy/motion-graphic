@@ -1,15 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Frijole');
-/*
-*{
-    border: 1px solid red;
-}
-*/
+
 body{
-/*    margin:0; 
-    padding:0;*/ 
     background: url(../img/wooden-wall-small.jpg) repeat;
     width: 100%;
-    height: 1000px;
+    height: 900px;
     font-family: 'Frijole', cursive;
 }
 #window{
@@ -22,7 +16,7 @@ body{
     width: 50%;
     position: relative;
     margin: 0 auto;
-    bottom: 310px;
+    bottom: 370px;
     overflow: hidden;
 }
 #cityview{
@@ -89,19 +83,6 @@ body{
     animation-iteration-count: infinite;  
 }
 */
-/*
-.content {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 35%;
-	-ms-transform: translate(-50%,-50%);
-   	-webkit-transform: translate(-50%,-50%); 
-    transform: translate(-50%,-50%);
-    z-index: 1000;
-}
-*/
-
 .logo-wrap {
     width: 100%;
 }
@@ -150,23 +131,33 @@ body{
     top: 150px;
     display: none;
 }
-h1{
+h1, h2{
     color: #b5287b;
     text-transform: uppercase;
 	font-family: 'Frijole', cursive;
-	font-size: 160%;
+	font-size: 140%;
     margin-left: 50px;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 5px blanchedalmond;
+    text-shadow: 3px 3px 5px white;
     position: relative;
+    z-index: 3000;
+}
+
+h2{
+    font-size: 220%;
+    float:right;
+    line-height: 85%;
+    margin-right: 3%;
+    margin-top: 0;
 }
 button{
 	font-family: 'Frijole', cursive;
     background-color: #b5287b;
 	padding: 5px 8px;
-	margin: 20px 50px;
+	margin: 10px 50px;
 	border-radius: 5px;
-/*	display: inline-block;*/
+    border: none;
+    box-shadow: 3px 3px 5px lightblue;
 	text-transform: uppercase;
 	font-size: 120%;
 	letter-spacing: 2px;
@@ -196,6 +187,35 @@ button.inactive {
     left: 500px;
     top: 465px;
     z-index: 3000;
+}
+#laptopScreen{
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    left: 500px;
+    top: 465px;
+    z-index: 3000;
+    margin: 0 auto;
+}
+.typist{
+    font-family: monospace;
+    width: 100%;
+    position: absolute;
+    z-index: 4000;
+    color: ghostwhite;
+    font-size: 90%;
+    left: 50px;
+}
+#order{
+    font-family: monospace;
+	font-size: 80%;
+	letter-spacing: 0px;
+    position: relative;
+    z-index: 4000;
+    border: none;
+    top: 50px;
+    left: 100px;
+    box-shadow: 0px 0px 0px;
 }
 
 #flashContent{
